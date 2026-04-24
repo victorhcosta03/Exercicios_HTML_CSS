@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #000;
+}
+
+.links-nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu-lista-links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+header{
+    background-color: #263d2e;
+    color: white;
+    padding: 40px 0px;
+}
+
+header div{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.sessao01{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    display: flex;
+}
+
+.sessao01 img{
+    width: 25%;
+    border-radius: 50%;
+}
+
+.sessao01 div{
+    padding-left: 25px;
+}
+
+.sessao01 div h2{
+    padding: 10px 0 0 0;
+    border-bottom: 2px solid  #263d2e;
+}
+
+.sessao01 div p{
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.sessao02{
+    background-color: #263d2e54;
+    text-align: center;
+}
+
+.sessao02 h2{
+    padding: 25px 0 ;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.sessao02-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sessao02-container-imagens{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 35px;
+}
+
+.sessao02-container-imagens img{
+    width: 25%;
+}
+
+footer{
+    background-color:  #263d2e;
+    text-align: center;
+    color: #fff;
+    padding: 35px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+/* Artigos */
+
+.sessao03{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    display: flex;
+}
+
+.sessao03 div{
+    padding-left: 25px;
+}
+
+.sessao03 div p{
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.figure-artigo{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0; 
+}
+
+
+/* Galeria */
+
+.main-galeria{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.div-galeria{
+    padding: 20px 0;
+}
+
+.figure01{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.figure02{
+    padding-bottom: 30px;
+
+}
+
+.img-01{
+    width: 100%;
+}
+

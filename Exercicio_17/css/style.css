@@ -1,0 +1,33 @@
+/* 1. Estilização do CONTAINER (header) */
+header {
+    height: 70vh;
+    /* Torna o header o ponto de referência para o posicionamento absoluto do ::before */
+    position: relative; 
+    /* Garante que o conteúdo (texto) fique na camada superior */
+    z-index: 1; 
+}
+
+/* 2. Criação e Estilização do PSEUDO-ELEMENTO (Camada da Imagem) */
+header::before {
+    /* Propriedades essenciais do pseudo-elemento */
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    /* Manda esta camada de imagem PARA TRÁS do conteúdo do header */
+    z-index: -1; 
+
+    /* PROPRIEDADES DA IMAGEM DE FUNDO */
+    background-image: url(../img/Paisagem_Full_HD_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /* A PROPRIEDADE CHAVE: OPACIDADE DA IMAGEM */
+    /* Ajuste o valor (entre 0.0 e 1.0) conforme a transparência desejada.
+       Exemplo: 0.3 para 30% de opacidade (bem transparente). */
+    opacity: 0.4; /* Opacidade da imagem (o conteúdo do header não será afetado) */
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+header figure{
+    margin: 0;
+    padding: 0;
+}
+
+.gray{
+    background-color: gray;
+    padding: 30px 100px;
+    margin-top: 0;
+}
+
+.white{
+    background-color: white;
+    padding: 30px;
+}
+
+.section_2{
+    padding: 0 100px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+}
+
+footer div{
+    margin-right: 150px;
+}

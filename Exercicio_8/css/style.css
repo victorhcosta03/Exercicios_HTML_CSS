@@ -1,0 +1,28 @@
+header{
+    height: 60vh;
+    background-image: url(https://picsum.photos/1500/600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header div{
+    padding-left: 250px;
+}
+
+h1{
+    text-shadow: 1px 1px 1px white;
+}
+
+header div p{
+    text-shadow: 1px 1px 1px white;
+}
+
+main{
+    padding: 30px 200px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
